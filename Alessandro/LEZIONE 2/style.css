@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*
+.outer-box {
+    height: 400px;
+    width: 400px;
+    background-color: green;
+
+}
+
+.outer-box .box {
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    border: solid 10px black;
+    margin 50px;
+    padding: 10px;
+}
+
+.outer-box .box .inner-box {
+    height: 100;
+    width: 100;
+    background-color: blue;
+}
+
+*/
+
