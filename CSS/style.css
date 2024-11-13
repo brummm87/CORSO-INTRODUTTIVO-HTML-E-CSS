@@ -1,0 +1,19 @@
+span{
+    background-color:blueviolet;
+    color: black;
+}
+
+#tag{
+    background-color: black;
+    color:aqua
+}
+
+.tag{
+    background-color: aqua ;    
+    color:white;
+}
+
+.round{
+    border-radius: 10px;
+    padding: 10px;
+}
