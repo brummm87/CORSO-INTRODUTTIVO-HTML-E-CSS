@@ -1,8 +1,3 @@
-span{
-    background-color:blueviolet;
-    color: black;
-}
-
 #tag{
     background-color: black;
     color:aqua
@@ -16,4 +11,9 @@ span{
 .round{
     border-radius: 10px;
     padding: 5px;
+}
+
+span{
+    background-color:blueviolet;
+    color: black;
 }
