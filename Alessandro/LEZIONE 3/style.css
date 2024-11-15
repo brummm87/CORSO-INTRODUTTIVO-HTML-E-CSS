@@ -27,7 +27,7 @@ main .container {
 
 main .container .card{
     width: var(--card-max-width);
-    box-shadow: ;
+    box-shadow: 7px 8px 11px 4px #0000008c;
 }
 
 main .container .card .card__header img{
