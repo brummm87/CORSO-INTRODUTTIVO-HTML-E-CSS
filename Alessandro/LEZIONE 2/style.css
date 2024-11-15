@@ -46,13 +46,14 @@ nav {
 
 nav * {
     color: #F2F4F8;
+    display: flex;
+
 }
 nav .navbar__container {
 
     width: 100%;
     max-width: 1120px;
     margin: auto;
-    display: flex;
     align-items: center;
     padding: 20px;
     gap: 30px;
@@ -60,7 +61,7 @@ nav .navbar__container {
 }
 
 nav .navbar__container .navbar__menu {
-    display: flex;
+    /* display: flex; */
     flex-grow: 1;
     gap: 20px;
 }
@@ -76,6 +77,6 @@ nav .navbar__container .navbar__menu .navbar__menu-item a:hover {
 }
 
 nav .navbar__container .navbar__actions {
-    display: flex;
+    /* display: flex; */
     gap: 20px;
 }
