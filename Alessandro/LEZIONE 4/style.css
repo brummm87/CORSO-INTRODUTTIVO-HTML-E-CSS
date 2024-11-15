@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+}
+
+
+button {
+    background-color: transparent;
+    border: none;
+}
+
+
+
+/* NAVBAR */
+nav {
+    background-color: #364652;
+} 
+
+nav * {
+    color: #F2F4F8;
+    display: flex;
+
+}
+nav .navbar__container {
+
+    width: 100%;
+    max-width: 1120px;
+    margin: auto;
+    align-items: center;
+    padding: 20px;
+    gap: 30px;
+
+}
+
+nav .navbar__container .navbar__menu {
+    /* display: flex; */
+    flex-grow: 1;
+    gap: 20px;
+}
+
+nav .navbar__container .navbar__menu .navbar__menu-item a {
+    cursor: pointer;
+    transition: all ease-in-out 0.2s;
+}
+
+nav .navbar__container .navbar__menu .navbar__menu-item a:hover {
+    color: #f2f4f88e;
+}
+
+nav .navbar__container .navbar__actions .navbar__actions-item button{
+    cursor: pointer;
+    transition: all ease-in-out 0.2s;
+}
+
+nav .navbar__container .navbar__actions .navbar__actions-item button:hover{
+    color: #f2f4f88e;
+}
+
+nav .navbar__container .navbar__actions {
+    /* display: flex; */
+    gap: 20px;
+}
+
+
+/* HEADEER */
+
+header .header__container{
+
+}
+
