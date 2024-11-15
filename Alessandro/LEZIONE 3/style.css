@@ -3,7 +3,7 @@
 :root {
     --container-max-width: 1120px;
     --card-max-width: 250px;
-    --card-padding: 15px;
+    --card-padding: 10px 15px;
 
 }
 
@@ -23,11 +23,17 @@ main .container {
     width: 100%;
     max-width: var(--container-max-width);
     margin: auto;
+    padding: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
 }
 
 main .container .card{
     width: var(--card-max-width);
-    box-shadow: 7px 8px 11px 4px #0000008c;
+    box-shadow: 7px 8px 11px 4px rgb(0, 0, 0, 0.5);
+    border-radius: 10px;
+    overflow: hidden;
 }
 
 main .container .card .card__header img{
@@ -36,9 +42,40 @@ main .container .card .card__header img{
 }
 
 main .container .card .card__body{
-    padding: 18px;
+    padding: var(--card-padding);
     
 }
-main .container .card .card__body {
-    margin: 10px;
+main .container .card .card__body p {
+    font-size: 16px;
+    line-height: 22
+    px;
+}
+main .container .card .card__body h3 {
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-bottom: 7px;
+}
+
+main .container .card .card__footer {
+    padding: var(--card-padding);
+    text-align: right;
+
+}
+
+main .container .card .card__footer button{
+    padding: 5px 25px;
+    background-color: rgb(62, 128, 65);
+    border: none;
+    border-radius: 3px;
+    color: aliceblue;
+    font-size: 14px;
+    transition: all ease-in-out 0.25s;
+    opacity: 1;
+
+}
+
+main .container .card .card__footer button:hover {
+    opacity: 0.8;
+    background-color:  rgba(29, 29, 214, 0.7);
+    color: aquamarine;
 }
