@@ -1,16 +1,131 @@
-@import url(https://fonts.googleapis.com/css2?family=Faculty+Glyphic&display=swap" rel="stylesheet");
+@import url("https://fonts.googleapis.com/css2?family=Faculty+Glyphic&display=swap" rel="stylesheet");
 
 :root{
+    --dflt-font-size: 20px;
 
 }
 
 
 * {
-    font-size: 35px;
+    border: 0px;
+    margin: 0px;
+}
+
+body {
     font-family: "Faculty Glyphic", sans-serif;
+    color: #00222e;
+    align-items: center;
+    background-color: #017ba7;
+    font-size: var(--dflt-font-size);
+    width: 100%;
+    margin: auto;
+    max-width: 1300px;
 
 }
+
+
+a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin: 2.5rem;
+}
+
+
 
 p {
+    color: #0796be;
+    font-weight: 600;
+}
+
+
+
+
+.container {
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 1rem  ;
     
 }
+
+
+/*   NAVBAR   */
+
+.nav {
+    gap: 2rem;
+    background-color: rgb(35, 61, 71);
+    
+}
+
+
+
+body .nav .container .nav-logo{
+    margin-top: 7px;
+}
+
+
+button{
+    border-radius: 0.25rem;
+    background: #00222e;
+    cursor: pointer;
+}
+
+
+nav button p{
+    margin: 0rem 0.5rem;
+    padding: 0.5rem;
+}
+
+
+
+/*   HEADER   */
+
+
+.header{
+    display: flex;
+    align-items: center;
+}
+
+.header-img{
+    width: 430px; 
+    height: 500px; 
+    object-fit: cover;
+    object-position: left ; 
+    
+}
+
+.header{
+    margin-top: 20px;
+    border : solid 3px #00222e;
+    border-radius: 100px;
+    overflow: hidden;
+}
+
+.header-section{
+        text-align: right;
+}
+
+
+.header-section h1{
+    background: #89b8c9;
+}
+
+.header-section div{
+    margin-inline: 100px;
+    margin-bottom: 50px;
+}
+
+
+
+
+
+
+
+/*   MAIN   */
+
+
+
+/*   FOOTER   */
+
+
